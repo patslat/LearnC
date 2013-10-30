@@ -10,6 +10,7 @@ all:
 	make ex8
 	make ex9
 	make ex10
+	make ex11
 
 clean:
 	rm -f hello_world
@@ -21,3 +22,5 @@ clean:
 	rm -f ex8
 	rm -f ex9
 	rm -f ex10
+	rm -f ex11
+
