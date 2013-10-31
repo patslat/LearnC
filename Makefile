@@ -17,6 +17,15 @@ all:
 	make ex15
 	make ex16
 	make ex17
+	make ex18
+	make ex19
+	make ex20
+	make ex21
+	make ex22
+	make ex23
+	make ex24
+	make ex25
+	make ex26
 
 clean:
 	rm -f hello_world
@@ -35,3 +44,13 @@ clean:
 	rm -f ex15
 	rm -f ex16
 	rm -f ex17
+	rm -f ex18
+	rm -f ex19
+	rm -f ex20
+	rm -f ex21
+	rm -f ex21
+	rm -f ex22
+	rm -f ex23
+	rm -f ex24
+	rm -f ex25
+	rm -f ex26
