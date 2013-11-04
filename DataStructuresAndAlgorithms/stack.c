@@ -43,5 +43,19 @@ int pop(STACK *ps)
 
 int main(int argc, const char *argv[])
 {
+  STACK st;
+  st.size = 0;
+  int i;
+  int n;
+  for(i = 0; i < STACKSIZE; i++) {
+    printf("pushing %d\n", i);
+    push(&st, i);
+  }
+
+  for(i = 0; i < STACKSIZE; i++) {
+    n = pop(&st);
+    printf("popped %d\n", n);
+  }
+
   return 0;
 }
