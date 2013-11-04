@@ -1,7 +1,9 @@
 CFLAGS=-Wall -g
 
 all:
-	make stack
+	make static_stack
+	make ll_stack
 
 clean:
-	rm -f stack
+	rm -f static_stack
+	rm -f ll_stack
